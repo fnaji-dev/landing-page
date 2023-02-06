@@ -1,3 +1,16 @@
 * {
     font-family: "Roboto", sans-serif;
 }
+
+.hero, header, footer {
+    background-color: #1F2937;
+}
+
+.mid {
+    background-color: #E5E7EB;
+}
+
+.bot, button {
+    background-color: #3882F6;
+}
+
