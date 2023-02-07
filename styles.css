@@ -14,3 +14,31 @@
     background-color: #3882F6;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.hero-image {
+    flex: 1 1 300px;
+    min-width: 0;
+    max-width: 300px;
+    max-height: auto;
+}
