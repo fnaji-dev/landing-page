@@ -112,3 +112,18 @@ header {
 .top-caption {
     max-width: 200px;
 }
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 0 128px;
+}
+
+.quotee {
+    font-size: 28px;
+    color: #1F2937;
+    text-align: right;
+    padding: 0 128px;
+}
