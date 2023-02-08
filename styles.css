@@ -2,6 +2,11 @@
     font-family: "Roboto", sans-serif;
 }
 
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
 .hero, header, footer {
     background-color: #1F2937;
 }
@@ -35,7 +40,7 @@ header {
     align-items: center;
     gap: 32px;
     justify-content: space-between;
-    padding: 128px;
+    padding: 64px 128px;
 }
 
 .hero-text {
@@ -47,11 +52,13 @@ header {
 }
 
 .hero-image-container {
-    flex: 0 1 auto;
+    display: flex;
+    flex: 1;
+    max-width: 300px;
 }
 
 .hero-image {
-    flex: 1 1 300px;
+    flex: 0 1 300px;
     min-width: 0;
     max-width: 300px;
 }
