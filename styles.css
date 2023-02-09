@@ -139,3 +139,14 @@ header {
     color: #1F2937;
     text-align: right;
 }
+
+.bot {
+    display: flex;
+    justify-content: center;
+    gap: 256px;
+}
+
+.bot-text {
+    display: flex;
+    flex-direction: column;
+}
