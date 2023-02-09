@@ -22,7 +22,8 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 256px;
     padding: 32px 128px;
 }
 
@@ -41,7 +42,7 @@ header {
     display: flex;
     align-items: center;
     gap: 32px;
-    justify-content: space-between;
+    justify-content: center;
     padding: 64px 128px;
 }
 
@@ -134,7 +135,7 @@ header {
 }
 .quotee {
     flex: 0 1 896px;
-    text-align: right;
     font-size: 28px;
     color: #1F2937;
+    text-align: right;
 }
