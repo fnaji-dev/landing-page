@@ -74,7 +74,7 @@ header {
     color: #F9FAF8;
 }
 
-.hero-sub, .header-links, button {
+.hero-sub, .header-links, button, footer {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -159,4 +159,9 @@ header {
 .call {
     font-size: 24px;
     font-weight: 700;
+}
+
+footer {
+    padding: 32px;
+    text-align: center;
 }
