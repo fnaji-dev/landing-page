@@ -49,9 +49,8 @@ header {
 .hero-text {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
+    flex: 1 0 400px;
     max-width: 450px;
-    min-height: 400px;
 }
 
 .hero-image-container {
@@ -164,4 +163,9 @@ header {
 footer {
     padding: 32px;
     text-align: center;
+}
+
+button {
+    max-width:fit-content;
+    min-width: fit-content;
 }
