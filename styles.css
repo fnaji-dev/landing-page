@@ -23,13 +23,13 @@ body {
 header {
     display: flex;
     justify-content: center;
-    gap: 256px;
+    gap: 30%;
     padding: 32px 128px;
 }
 
 .header-logo {
     font-size: 24px;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
 .header-links {
